@@ -8,6 +8,9 @@
     },
     {
       "include": "#punctuation"
+    },
+    {
+      "include": "#characters"
     }
   ],
   "repository": {
@@ -20,6 +23,14 @@
         {
           "name": "lng.latin",
           "match": "\\b[a-zA-Zéèêëçàâîïôûüÿ'œŒ]+\\b"
+        }
+      ]
+    },
+    "characters": {
+      "patterns": [
+        {
+          "name": "char.numeric",
+          "match": "\\b\\d+(\\.\\d+)?\\b"
         }
       ]
     },
